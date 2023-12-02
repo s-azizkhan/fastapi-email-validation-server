@@ -13,4 +13,4 @@ ENVIRONMENT = getenv("ENVIRONMENT", "development")
 API_PREFIX = getenv("API_PREFIX", "/api")
 
 # Set the secret key for the API
-API_SECRET_KEY = getenv("API_SECRET_KEY", range(16, 32, 3))
+API_SECRET_KEY = getenv("API_SECRET_KEY", "API_SECRET_KEY")
