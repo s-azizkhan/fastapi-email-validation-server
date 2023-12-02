@@ -46,7 +46,7 @@ To set up and run the FastAPI Email Validation API, follow the installation inst
 5. Run the FastAPI application:
 
    ```bash
-   uvicorn app:app --reload --port 8000
+   uvicorn main:app --reload --port 8000
    ```
 
 ## Example
